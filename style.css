@@ -8,11 +8,14 @@ text-decoration: none;
 list-style: none;
 font-family: "Poppins", sans-serif; 
 }
+body{
+    background-color: black;
+}
 
 .background{
     background-color: black;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-image: url(c59ecd594e769a9cf0f9238167414d21.jpg);
+    background-image: url(920596.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -54,7 +57,7 @@ header{
 }
 
 button{
-    color:#ff0000;
+    color:#eee6e6;
     background: transparent;
     border: solid 1px #ff0000;
     padding: 5px;
@@ -64,8 +67,8 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #ff0000;
-    color:blanchedalmond;
+    background-color: #ff0f0f;
+    color:rgb(3, 3, 3);
     transition: 1s;
 }
 
@@ -73,34 +76,38 @@ button:hover{
     padding: 150px 0 0 130px;
 }
 .text h3{
-    color: rgb(253, 255, 255);
-    font-size: 15px;  
+    color: rgb(248, 248, 248);
+    font-size: 30px;  
 }
 .text h1{
     color:rgb(255, 255, 255);
     margin-top: 10px;
+    font-size: 50px;
 }
 .text span{
-color:#228df1
+color:#0c7de6
 }
 .text p{
     color: aliceblue;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: 15px;
  }
  .redes a{
-    color:#228df1;
+    color:#f8f9fa;
     padding: 10px;
     margin-top: 5px;
     font-size :22px;
  }
  .btn{
-    margin-top: 10px;
+    margin-top: 100px;
  }
 
 .liks{
-    background-color: black;
+    background-color: rgba(17, 1, 1, 0);
+    margin-top: 60
+    0px;
+    margin-left: 50px;
 
 }
  .sobre h1{
@@ -112,3 +119,19 @@ color:#228df1
   
     color: rgb(253, 253, 253);
  }
+ 
+ .flex-container {
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 5, 5);
+  }
+  
+  .flex-container > div { 
+    background-color: #f1f1f1;
+  
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;}
