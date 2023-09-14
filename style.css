@@ -8,7 +8,10 @@ text-decoration: none;
 list-style: none;
 font-family: "Poppins", sans-serif; 
 }
-html{scroll-behavior: smooth;}
+
+html{
+    scroll-behavior: smooth;
+}
 
 
 body{
@@ -159,5 +162,64 @@ text-align: justify;
 .flex-container img{
     width: 130px;
     height: 200;
-
 }
+
+.contato
+{
+    padding: 80px 4%;
+}
+form ,h2{
+    color: #eee6e6;
+    text-align: center;
+    margin-bottom: 40px;
+}
+form ,span{
+    color:#ff0000
+}
+.form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #242323;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15PX;
+    color: #eee6e6;
+    font-size: 18px;
+    margin: 10px;
+}
+form textarea{
+    resize: none;
+    max-height: 300px;
+}
+ form .btn-enviar{
+    margin-top: 40px;
+    text-align: center;
+ }
+
+ form .btn-enviar input[type=submit]{
+    width: 120px;
+    color:#fbfcf8;
+    background: transparent;
+    border: solid 1px #ff0000;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 50%;
+    cursor: pointer;
+    
+ }
+ form .btn-enviar input[type=submit]:hover{
+    background-color: #ff0f0f;
+    color:rgb(3, 3, 3);
+    transition: 1s;
+}
+ 
